@@ -1,0 +1,83 @@
+.navbar{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+            
+}
+.school {
+    display: flex;
+    align-items: center;
+   
+}
+.list{
+    display: flex;
+}
+.img{
+    margin-left: 141px;
+}
+.hi{
+    gap: 11px;
+}
+.btn{
+     margin-right: 141px;
+     background-color: rgba(254, 163, 1, 1);
+     color: white;
+     border: none;
+     width: 197px;
+     border-radius: 12px;
+     font-size: 20px;
+     font-weight: 600;
+     
+     
+
+}
+.li{
+    list-style: none;
+    margin-right: 30px;
+}
+.i{
+    color: rgba(254, 163, 1, 1);
+}
+.p{
+    color: rgba(1, 172, 253, 1);
+}
+.j{
+    color: rgba(5, 212, 223, 1);
+}
+.y{
+    color: rgba(93, 88, 239, 1);
+}
+.img-primary{
+    width: 468px;
+    margin-right: 140px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.contianer{
+    margin-top: 122px;
+}
+.btn-primary{
+    background-color: rgba(17, 17, 17, 1);
+    color: white;
+    border: none ;
+    border-radius: 12px;
+    width: 197px;
+    height: 50px;
+}
+.empowering{
+    font-size: 56px;
+    font-weight: bold;
+}
+.paragarph{
+    font-size: 20;
+    font-weight: normal;
+}
+.t{
+    color: rgba(254, 163, 1, 1);
+}
+.r{
+    color: rgba(1, 172, 253, 1);
+}
