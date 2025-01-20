@@ -81,3 +81,47 @@ justify-content: space-between;
 .r{
     color: rgba(1, 172, 253, 1);
 }
+.standerd{
+    text-align: center;
+    font-size: 46;
+    font-weight: bold;
+}
+.bg {
+    position: absolute; 
+    margin-top: 20px;
+  }
+ .skill-container{
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .skillq{
+    border:3px solid rgba(222, 245, 255, 1);
+ }
+ .skills{
+    border:3px solid rgba(255, 244, 220, 1) ;
+    background-color:transparent;
+
+ }
+ .skillr{
+    border: 3px solid rgba(242, 232, 255, 1);
+    box-shadow: opx 6px 50px 0px rgba(242, 232, 255, 1);
+ }
+ .src{
+    border: none;
+    color: rgba(100, 200, 255, 1);
+font-size: 15px;
+font-weight: bold;
+ }
+ .rer{
+    border: none;
+    color: rgba(240, 170, 0, 1);
+    font-size: 15px;
+font-weight: bold;
+ }
+ .any{
+    border: none;
+    color: rgba(135, 0, 255, 1);
+    font-size: 15px;
+font-weight: bold;
+ }
