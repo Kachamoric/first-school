@@ -125,3 +125,6 @@ font-weight: bold;
     font-size: 15px;
 font-weight: bold;
  }
+body{
+    background-image: url(../assets/bg.png);
+}
