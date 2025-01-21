@@ -103,6 +103,7 @@ justify-content: space-between;
     height: 367px;
     padding: 20px;
     text-align: center;
+    border-radius: 18px;
     background: linear-gradient(to bottom, rgba(222, 245, 255, 1),white)
     
  }
@@ -112,6 +113,7 @@ justify-content: space-between;
     height: 367px;
     padding: 20px;
     text-align: center;
+    border-radius: 18px;
     background: linear-gradient(to bottom, rgba(255, 244, 220, 1),white)
 
  }
@@ -122,6 +124,7 @@ justify-content: space-between;
     width: 200px;
     padding: 20px;
     height: 367px;
+    border-radius: 18px;
     background: linear-gradient(to bottom, rgba(242, 232, 255, 1),white)
    
  }
@@ -146,6 +149,56 @@ background-color: white;
 font-weight: bold;
 background-color: white;
  }
+.you{
+    justify-items: center;
+    text-align: center;
+}
+.stories{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.story-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+  
+  .story-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .story-info {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .story-info .dates {
+    font-size:15px;
+    color: white;
+    background-color: rgba(60, 216, 232, 1);
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  .story-info h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  
+  
 
 @media (max-width:425px) {
     .navbar{
