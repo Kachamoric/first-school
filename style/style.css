@@ -93,38 +93,112 @@ justify-content: space-between;
  .skill-container{
     display: flex;
     justify-content: space-around;
+    background-image: url(../assets/bg.png);
+    
 
  }
  .skillq{
     border:3px solid rgba(222, 245, 255, 1);
+    width: 200px;
+    height: 367px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 1),white)
+    
  }
  .skills{
     border:3px solid rgba(255, 244, 220, 1) ;
-    background-color:transparent;
+    width: 200px;
+    height: 367px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255, 244, 220, 1),white)
 
  }
  .skillr{
     border: 3px solid rgba(242, 232, 255, 1);
     box-shadow: opx 6px 50px 0px rgba(242, 232, 255, 1);
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    height: 367px;
+    background: linear-gradient(to bottom, rgba(242, 232, 255, 1),white)
+   
  }
  .src{
     border: none;
     color: rgba(100, 200, 255, 1);
 font-size: 15px;
 font-weight: bold;
+background-color: white;
  }
  .rer{
     border: none;
     color: rgba(240, 170, 0, 1);
     font-size: 15px;
 font-weight: bold;
+background-color: white;
  }
  .any{
     border: none;
     color: rgba(135, 0, 255, 1);
     font-size: 15px;
 font-weight: bold;
+background-color: white;
  }
-body{
-    background-image: url(../assets/bg.png);
+
+@media (max-width:425px) {
+    .navbar{
+        border: 1px solid rgba(254, 163, 1, 1);
+        display: none;
+        
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .img-primary{
+        width: 100%;
+        margin:0px;
+        order: -1;
+    }
+    .empowering{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .btn{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillq,.skills,.skillr{
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px
+    }
+    .srs,.rer,.any{
+        font-size: 13px;
+        padding: 10px;
+
+    }
+    .btn-primary{
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+       
+
+    }
+    .bg{
+        margin-top: 10px;
+    }
 }
+    
+
+
+ 
