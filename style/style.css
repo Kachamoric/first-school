@@ -159,6 +159,9 @@ background-color: white;
     background-color: white;
     display: flex;
     grid-template-columns: repeat(2,1fr);
+    background-image: url(../assets/bg.png);
+   
+   
    
 }
 .story-container{
@@ -168,36 +171,68 @@ background-color: white;
     padding: 0 20px;
     display: flex;
     justify-content: center;
+    
 
 }
-
-  
-  .story-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+.dates {
+    position: relative;
+    bottom: 22px;
+    right: 120px;
+    font-size:15px;
+    color: white;
+    background-color: rgba(149, 178, 38, 1);
+    padding: 5px 10px;
+    border-radius: 47px;
+    display: inline-block;
   }
-  
-  .story-info {
-    padding: 15px;
-    text-align: left;
-  }
-  
-  .story-info .dates {
+  .date{ position: relative;
+    bottom: 22px;
+    right: 120px;
     font-size:15px;
     color: white;
     background-color: rgba(60, 216, 232, 1);
     padding: 5px 10px;
-    border-radius: 20px;
+    border-radius: 47px;
     display: inline-block;
+
   }
-  
-  .story-info h3 {
-    font-size: 1.2em;
-    margin: 10px 0;
+  .dateq{
+    position: relative;
+    bottom: 22px;
+    right: 120px;
+    font-size:15px;
+    color: white;
+    background-color: rgba(93, 88, 240, 1);
+    padding: 5px 10px;
+    border-radius: 47px;
+    display: inline-block
   }
+  .find{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+    
+    
+  }
+
+  .story-card img {
+    width: 100%;
+    display: block;
+    border: 4px solid white; 
+    gap: 18px;
+  }
+  .view{
   
-  
+   margin: 0px 621px 0 700px;
+
+  }
+  .views{
+    background-color: black;
+   color: white;
+   border-radius:12px ;
+   padding: 10px;
+   width: 197px;
+  }
   
 
 @media (max-width:425px) {
@@ -250,7 +285,12 @@ background-color: white;
     .bg{
         margin-top: 10px;
     }
+    
+
 }
+
+    
+
     
 
 
