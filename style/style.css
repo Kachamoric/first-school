@@ -160,6 +160,8 @@ background-color: white;
     display: flex;
     grid-template-columns: repeat(2,1fr);
     background-image: url(../assets/bg.png);
+    background-image: linear-gradient(rgba(254, 163, 1, 1));
+    box-shadow: 0 5px 4px rgba(255, 255, 255, 1);
    
    
    
